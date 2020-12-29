@@ -1,0 +1,7 @@
+{% extends './base.html' %}
+<link rel="stylesheet" href="../static/style.css">
+{% block content %}
+        <p>タイトル:{{ post.title }}</p>
+        <p>詳細:{{ post.detail }}</p>
+        <p>ランク:{{ post.rank }}</p>
+{% endblock %}

@@ -1,0 +1,13 @@
+body {
+    background-color: yellowgreen;
+    color: white;
+    margin: 0;
+}
+
+#main_header {
+    margin: 0 auto;
+    color: green;
+    background-color: aqua;
+    text-align: center;
+    padding: 40px;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>本棚アプリ</title>
+</head>
+<body>
+    <header id="main_header">
+        <a href="/" >Home</a> | <a href="{% url 'form' %}">新規投稿</a>
+    </header>
+    {% block content %}
+    {% endblock %}
+<script src="../static/main.js"></script>
+</body>
+</html>
